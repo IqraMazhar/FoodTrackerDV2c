@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Food Tracker-DV</string>
+    <string name="title_activity_food_tracker_dv">FoodTrackerDV</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="testbtn1" />
+    <string name="password" />
+    <string name="name" />
+    <string name="email" />
+    <string name="confirm_password" />
+    <string name="recomendation" />
+    <string name="bmi" />
+    <string name="already_eaten" />
+    <string name="age" />
+    <string name="weight" />
+    <string name="signup" />
+    <string name="Create_Account" />
+    <string name="OK" />
+
+</resources>

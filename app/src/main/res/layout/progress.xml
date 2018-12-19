@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/testbtn1"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/testbtn1"
+        tools:text="Edit" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_toStartOf="@+id/testbtn1"
+        android:text="TextView"
+        tools:text="Current Weight"
+        android:layout_marginRight="-40dp"
+        android:layout_toLeftOf="@+id/testbtn1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_toStartOf="@+id/testbtn1"
+        android:text="TextView"
+        tools:text="Highest Weight"
+        android:layout_toLeftOf="@+id/testbtn1"
+        android:layout_marginRight="-40dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_toStartOf="@+id/testbtn1"
+        android:text="TextView"
+        tools:text="BMI"
+        android:layout_marginRight="-40dp"
+        android:layout_toLeftOf="@+id/testbtn1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_toStartOf="@+id/testbtn1"
+        android:text="TextView"
+        tools:text="Calories Consumed Today"
+        android:layout_marginRight="-39dp"
+        android:layout_toLeftOf="@+id/testbtn1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="-42dp"
+        android:layout_toStartOf="@+id/testbtn1"
+        android:text="TextView"
+        tools:text="Lowest Weight"
+        android:layout_marginRight="-42dp"
+        android:layout_toLeftOf="@+id/testbtn1" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="-1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="-40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-126dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-169dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
